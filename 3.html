@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>개발새발-메모장</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="colors.js">
+    </script>
+    <script src="memo.js">
+    </script>
+  </head>
+
+  <div id="titlefont">
+  <h1><a href="index.html">개발서발</a></h1></div>
+    <div id="grid">
+      <ol>
+        <li><a href="0.html">개발서발실록</a></li>
+        <li><a href="1.html">개발서발이 궁금해?</a></li>
+        <li><a href="2.html">할 일 목록을 만들자!</a></li>
+        <li><a href="3.html">메모장을 만들자!</a></li>
+      </ol>
+    <div id="article">
+  <h2>MEMO</h2>
+  <p class="in"> Since the <a href="https://en.wikipedia.org/wiki/Memo">memo</a> is a written document, it can be preserved. Such preservation develops an information base in the organization and anyone can access it whenever he needs it.<br><br>
+    <p class="in">그래서 한 마디로 난 메모장을 만들거라구! <br>
+  나는 입력한 값을 페이지에 저장하고 싶어. 그런데 alert 기능만 되잖아.. 그래도 이게 어디야! 이거라도 해보자 <br><br>
+<br>1. 아래 칸 안에 아무거나 입력하고 enter 또는 마우스로 아무 곳이나 눌러봐!
+    <input id='userInput' autofocus width=100px; onchange='getInputFromTextBox()'> ✔ 알림창이 하나 뜰 거야!<br>
+<br>2. 이번에도 같은 방법으로! 단, 알림창 대신 이 페이지에 출력시켜보자!<br>
+      <input id='name' onchange='printName()'/>✔ 아래에 나타났지??!<br>
+      <div id='result'></div>
+</p>
+    </div>
+  </body>
+</html>

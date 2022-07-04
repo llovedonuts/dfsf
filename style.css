@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+    #titlefont{font-family: 'Gowun Dodum', sans-serif;
+  }
+    p {
+      color: #0c0806; font-family: 'Gowun Dodum', sans-serif;
+    }
+    a {
+      color: rosybrown; font-family: 'Gowun Dodum', sans-serif;
+    }
+    h1{
+      color: tomato; font-size:45px; padding-bottom: 0px;
+        padding-top: 20px; font-family: 'Gowun Dodum', sans-serif;
+        text-align: center; margin:0;
+    }
+    h2{
+      color: #8c5a49;  font-family: 'Gowun Dodum', sans-serif;
+        text-align: center;
+    }
+    h4{
+      color: #694437;   border-bottom: 1px solid darksalmon;
+      padding-top: 0px;   padding-bottom: 20px;
+      font-family: 'Gowun Dodum', sans-serif;
+      text-align: center; margin:0;
+    }
+
+    h5{
+      color: black;   border-bottom: 1px dotted #744b3d;
+      padding-top: 0px;   padding-bottom: 20px;
+      font-family: 'Gowun Dodum', sans-serif;
+    }
+    #intro{
+        text-align: center;
+    }
+    .in { text-indent: 10px; }
+    ol{
+      border-bottom: 1px solid darksalmon; padding-bottom:20px;
+
+      color: rosybrown; font-family: 'Gowun Dodum', sans-serif;
+      }
+    img{
+      display: block;  margin: auto;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #article{
+      padding-left: 46px;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      ol{
+        border-right:none; 
+      }
+      h1 {
+      border-bottom:none;
+      }
+
+      }
